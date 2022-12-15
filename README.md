@@ -3,14 +3,14 @@
 Пререквізити:
 Ознайомитись із методом
 https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Integer.html#parseInt(java.lang.String)
-1. Створити Клас ArrayValueCalculator
+1. Створити Клас src.main.java.hillel.hw.ArrayValueCalculator
 2. Створити метод doCalc. На вхід до методу подається двомірний рядковий масив розміром 4х4.
-3. При передачі масиву іншого розміру в метод doCalc необхідно викинути виняток ArraySizeException.
+3. При передачі масиву іншого розміру в метод doCalc необхідно викинути виняток src.main.java.hillel.hw.exception.ArraySizeException.
 4. Метод doCalc повинен пройтися за всіма елементами масиву і перетворити в int (використовувати Integer#parseInt) і підсумувати. 
 5. Після загального підсумовування метод повертає фінальний результат у вигляді int.
 6. Якщо в якомусь елементі масиву перетворення не вдалося (наприклад, в комірці лежить символ або текст замість числа), 
-   тоді викинути виняток ArrayDataException, з деталізацією в якому саме комірці лежать невірні дані.
-7. У методі main() викликати отриманий метод, обробити можливі винятки ArraySizeException та ArrayDataException, 
+   тоді викинути виняток src.main.java.hillel.hw.exception.ArrayDataException, з деталізацією в якому саме комірці лежать невірні дані.
+7. У методі main() викликати отриманий метод, обробити можливі винятки src.main.java.hillel.hw.exception.ArraySizeException та src.main.java.hillel.hw.exception.ArrayDataException, 
    та вивести результат розрахунку.
 8. * Необхідно дотримуватись усіх правил збереження контексту викинутого виключення.
    * При вилові винятків у процесі перетворення, взяти до уваги винятки, що викидаються іншими (сторонніми) методами, 
