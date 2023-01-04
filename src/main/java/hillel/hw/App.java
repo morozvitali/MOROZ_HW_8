@@ -3,12 +3,12 @@ import src.main.java.hillel.hw.exception.ArraySizeException;
 import src.main.java.hillel.hw.exception.ArrayDataException;
 
 
-public class app {
+public class App {
 
 
-    public class Application {
+    public static class Application {
         public static void main(String[] args) throws ArraySizeException, ArrayDataException {
-            String[][] array = {{"1 ", "2", "3", " 4"}, {"  5", "6", " 7 ", "8"}, {" 9", "10", "11", "12"}, {"  13", " 14", "15 ", "16"}};
+            String[][] array = {{"1 ", "2", "33", " 4"}, {"  5", " 5", " 7 ", "8"}, {" 9", " 10", "11", "12"}, {"  13", " 14", "15 ", "16"}};
 
 
             try {
