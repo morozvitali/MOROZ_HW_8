@@ -8,7 +8,7 @@ public class App {
 
     public static class Application {
         public static void main(String[] args) throws ArraySizeException, ArrayDataException {
-            String[][] array = {{"1 ", "2", "33", " 4"}, {"  5", " 5", " 7 ", "8"}, {" 9", " 10", "11", "12"}, {"  13", " 14", "15 ", "16"}};
+            String[][] array = {{"1 ", "2", "33", " 4"}, {"  5", " 5", " 7 ", "8"}, {" 9", " 10", "11", "12"}, {"  13", " 14", "15 ", "12"}};
 
 
             try {
